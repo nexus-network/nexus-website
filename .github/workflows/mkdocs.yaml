@@ -21,6 +21,6 @@ jobs:
 
       - name: Deploy mkdocs to GitHub Pages
         run: |
-          git config --global --add safe.directory /__w/starship/starship
+          git config --global --add safe.directory /__w/nexus-website/nexus-website
           cd docs
           mkdocs gh-deploy --force --no-history
